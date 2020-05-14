@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/5/12 9:11:08。
+     1>项目“C:\Users\ASUS\Desktop\StudentManagement\StudentManagement\StudentManagement.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt source.c
+         source.c
+     1>source.c(108): warning C4101: “student_name”: 未引用的局部变量
+     1>source.c(109): warning C4101: “student_cls”: 未引用的局部变量
+     1>source.c(107): warning C4101: “student_id”: 未引用的局部变量
+     1>source.c(483): warning C4101: “t”: 未引用的局部变量
+       Link:
+         E:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\StudentManagement\x64\Debug\StudentManagement.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\ASUS\Desktop\StudentManagement\x64\Debug\StudentManagement.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Desktop\StudentManagement\x64\Debug\StudentManagement.lib" /MACHINE:X64 x64\Debug\source.obj
+         StudentManagement.vcxproj -> C:\Users\ASUS\Desktop\StudentManagement\x64\Debug\StudentManagement.exe
+     1>已完成生成项目“C:\Users\ASUS\Desktop\StudentManagement\StudentManagement\StudentManagement.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89
